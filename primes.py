@@ -6,3 +6,7 @@ def primegen(max):
 		if ar[i] == 0:
 			yield i
 			ar[i::i] = [1 for x in range(0, len(ar[i::i]))]
+
+
+def somerandomfucntion(variable):
+	print(variable)
